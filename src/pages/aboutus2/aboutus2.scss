@@ -1,0 +1,63 @@
+page-aboutus2 {
+.toolbar-background-md {
+    border-color: #b2b2b2;
+    background: #f8f8f8;
+        background-image: none;
+    background-image: linear-gradient(-90deg, #900175, #ce1269);
+	}
+.toolbar-title-md {
+font-weight: 0;
+text-align:center;
+display:block;
+color:#fff !important;
+
+}
+.scroll-content{
+
+background-color: #f2f3f4 !important;
+}
+.icon-share{
+float:right;
+color:#fff;
+}
+.icon-back{
+float:left;
+color:#fff;
+}
+.icon-star{
+
+color:#ffbd00;
+}
+.card-aboutus{
+width:100% !important;
+margin:0px !important;
+}
+
+.card-aboutus-img{
+height: 220px;
+}
+.card-title-aboutus{
+font-size: 18px;
+line-height: 0.2;
+color: #ce1269;
+margin: 0px 0;
+padding: 3px 0;
+text-align: center;
+}
+
+.location{
+float:right;
+}
+.card-content-md {
+    padding: 2px 8px;
+}
+.card-md h1 {    
+color: #ce1269;
+}
+.card-aboutus-text{
+border-radius:10px;
+margin-top: 10px;
+padding: 10px;
+color: #000;
+}
+}

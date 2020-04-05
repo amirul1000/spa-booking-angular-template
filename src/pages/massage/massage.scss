@@ -1,0 +1,54 @@
+page-massage {
+.toolbar-background-md {
+    border-color: #b2b2b2;
+    background: #f8f8f8;
+        background-image: none;
+    background-image: linear-gradient(-90deg, #900175, #ce1269);
+	}
+.toolbar-title-md {
+font-weight: 0;
+text-align:center;
+display:block;
+color:#fff !important;
+
+}
+.icon-search{
+float:right;
+color:#fff;
+}
+.icon-back{
+float:left;
+color:#fff;
+}
+.scroll-content{
+margin-top: 57px;
+padding: 0px;
+background-color: #f2f3f4 !important;
+}
+.card-massage{
+border-radius:7px;
+}
+.card-content-massage{
+background-color: #fff;
+color:#000;
+font-size:16px;
+text-align:center;
+display:block;
+padding: 18px 16px;
+padding-top:3px !important;
+}
+.price-box{
+width:66px;
+border-radius:20px;
+border:1px solid #ce1269;
+font-size:13px;
+color:#ce1269;
+text-align:center;
+display:block;
+margin:auto;
+padding:3px;
+background-color:#fff;
+margin-top: -22px;
+}
+.button-inner{color: white;}
+}

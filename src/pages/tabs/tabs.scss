@@ -1,0 +1,37 @@
+page-tabs {
+.ion-ios-customicon,.ion-md-customicon,.ion-md-customicon-outline {
+  content: url('../../assets/imgs/facial-mask(1).png');
+}
+
+.fabbutton{
+font-size:24px;
+color:#fff;
+text-align:center;
+display:block;
+background-image: linear-gradient(-90deg, #900175, #ce1269);  
+width: 55px;
+height: 55px;
+line-height: 55px;
+border-radius: 50%;
+
+}
+ion-fab[bottom] {
+
+    bottom: 15px;
+
+}
+ion-fab[center] {
+
+    left: 50%;
+	}
+.tabs-md .tab-button[aria-selected="true"] {
+    color: #ce1269;
+    padding: 0;
+}
+.tabs-md .tab-button[aria-selected="true"] .tab-button-icon {
+    color: #ce1269;
+    
+    transform: translate3d(0, -2px, 0);
+}
+
+}

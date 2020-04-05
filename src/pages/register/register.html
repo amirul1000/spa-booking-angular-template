@@ -1,0 +1,42 @@
+<ion-content padding>
+<ion-list>
+		<ion-label class="input-lable">USER NAME</ion-label>
+		<ion-item class="button-input">    
+			<ion-input type="text"></ion-input>
+		</ion-item>
+		
+		<ion-label class="input-lable">PHONE NUMBER</ion-label>
+		<ion-item class="button-input">    
+			<ion-input type="text"></ion-input>
+		</ion-item>
+
+		<ion-label class="input-lable">EMAIL-ID</ion-label>
+		<ion-item class="button-input">    
+			<ion-input type="text"></ion-input>
+		</ion-item>
+		
+		<ion-label class="input-lable">PASSWORD</ion-label>	
+		<ion-item class="button-input">			
+			<ion-input type="password"></ion-input>
+		</ion-item>
+</ion-list>
+	<div>
+		<button block class="button-login button-login-1">REGISTER </button>
+	</div>
+	<div class="text">---------- OR ----------</div>
+	<ion-row>
+		<ion-col>
+			<button ion-button class="button-facebook">
+				<img src="assets/imgs/facebook.png" class="f-g-logo">
+				FACEBOOK
+			</button>
+		</ion-col>
+		<ion-col>
+			<button ion-button class="button-google">
+				<img src="assets/imgs/google-plus-social-logotype.png" class="f-g-logo">
+				GOOGLE
+			</button>
+		</ion-col>
+</ion-row>
+	<p class="p-text">Already have an account? <a (click)="login()">LOGIN</a></p>
+</ion-content>

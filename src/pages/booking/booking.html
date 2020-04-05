@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title align=center>Booking</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-row>
+        <ion-col col-6 class="pickdate">
+          Pick a Date
+        </ion-col>
+        <ion-col col-6>
+          <div class="month">
+            <button ion-button clear class="mmmyyybtn" (click)="previousMonth()">
+              <ion-icon name="ios-arrow-back" class="arrowicon"></ion-icon>
+            </button>
+            {{date.format('MMMM ')}} {{date.format('YYYY ')}}
+            <button ion-button clear class="mmmyyybtn" (click)="nextMonth()">
+              <ion-icon name="ios-arrow-forward" class="arrowicon2"></ion-icon>
+            </button>
+          </div>
+        </ion-col>
+      </ion-row>
+      
+      <ion-slides slidesPerView="5" spaceBetween="20" centeredSlides="true" class="datepik2" >
+        <ion-slide *ngFor="let day of monthDay" (click)="pickupdate(day)" [ngClass]="(day == selectedday) ? 'hover' : 'date'">
+          {{day}}
+        </ion-slide>
+      </ion-slides>
+    </ion-item>
+    <ion-item>
+      <div class="pickdate">
+        Pick a Time
+      </div>
+      <ion-slides slidesPerView="5" spaceBetween="20" centeredSlides="true" class="datepik2">
+        <ion-slide class="timepick" *ngFor="let time of TimeSelect" (click)="picktime(time)" [ngClass]="(time == SelectedTime) ? 'timehover' : 'timepick'">
+          {{time}}
+        </ion-slide>
+      </ion-slides>
+    </ion-item>
+    <ion-item>
+      <button ion-button block class="confirmbtn">Confirm Booking</button>
+    </ion-item>
+  </ion-list>
+</ion-content>

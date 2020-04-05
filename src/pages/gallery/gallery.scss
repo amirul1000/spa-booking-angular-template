@@ -1,0 +1,27 @@
+page-gallery {
+.toolbar-background-md {
+    border-color: #b2b2b2;
+    background: #f8f8f8;
+        background-image: none;
+    background-image: linear-gradient(-90deg, #900175, #ce1269);
+	}
+.toolbar-title-md {
+font-weight: 0;
+text-align:center;
+display:block;
+color:#fff !important;
+
+}
+.icon-share{
+float:right;
+color:#fff;
+}
+.icon-back{
+float:left;
+color:#fff;
+}
+.gallery-row2{
+margin-top: -5px;
+}
+.button-inner{color: white;}
+}
